@@ -80,3 +80,44 @@ vetorGenerico.remove(1)
 vetorGenerico.pop()
 elementoRemovido = vetorGenerico.pop
 print(f"O elemento removido foi: {elementoRemovido}")
+
+#Buscando índice ZERO e UM, usamos ao slice do vetor
+vetorSlice = vetor[0:2]
+print(vetor)
+print(vetorSlice)
+
+
+#Exibir somente os números negativos contidos do Vetor
+print(vetor)
+#Resposta: [45, -89, 32, -12, 33]
+
+listaNegativos =[]
+for indice in range(len(vetor),1):
+    if vetor[indice] < 0:
+        listaNegativos.append(vetor[indice]):
+print(listaNegativos)
+
+#Retornar a soma dos elementos do Vetor
+
+soma = 0
+for elemento in vetor:
+    soma += elemento
+print(soma)
+
+soma = sum(vetor)
+print(soma)
+
+#Retornar a média dos elementos do Vetor
+soma = 0
+for elemento in vetor:
+    soma+= elemento 
+    media = soma /len (vetor)
+    print(media)
+
+listaImpares = []
+for elemento in vetor:
+    if elemento % 2 != 0
+
+#Retornar o índice do elemento 32 do vetor 
+print(vetor.index(32))
+
